@@ -1,0 +1,7 @@
+# Node.js API folder
+/apiTS/node_modules
+/apiTS/.env
+
+# React client folder
+/client/node_modules
+/client/.env

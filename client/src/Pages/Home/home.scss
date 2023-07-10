@@ -1,0 +1,14 @@
+
+@import "../../app.scss";
+.home{
+    @include themify($themes) {
+    height: calc(100vh - 56px);
+    overflow-y: scroll;
+    overflow-x: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    // flex:3;
+    // width: calc(100vw - 140px);
+}
+}

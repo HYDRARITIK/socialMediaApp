@@ -1,0 +1,81 @@
+.register{
+    display: flex;
+    height: 100vh;
+    background: #4befec;
+    align-items: center;
+    justify-content: center;
+    .card{
+        display: flex;
+        gap:30px;
+        // border: 1px solid #ccc;
+        background: #fff;
+        border-radius: 5px;
+        padding: 30px;
+        flex-direction: row-reverse;
+
+        .left{
+            // background: url("https://images.pexels");
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1.5rem;
+
+
+            }
+            span{
+                font-size: 1.5rem;
+                color: #065fd4;
+                cursor: pointer;
+
+            }
+            button{
+                margin-top: 20px;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                background: #065fd4;
+                color: #fff;
+                font-size: 1.5rem;
+                cursor: pointer;
+
+            }
+
+        }
+        .right{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 3rem;
+
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                input{
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    margin: 10px 0;
+                    font-size: 1.5rem;
+
+                }
+                button{
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    background: #065fd4;
+                    color: #fff;
+                    font-size: 1.5rem;
+                    cursor: pointer;
+
+                }
+            }
+
+        }
+    }
+}
